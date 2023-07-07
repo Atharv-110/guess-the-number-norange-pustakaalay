@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { CountdownCircleTimer } from "react-countdown-circle-timer";
 import Swal from "sweetalert2";
@@ -10,7 +9,6 @@ import gameData from "../data/gameData";
 
 // import Images
 import pauseBtn from "../assets/pause-btn.png";
-import gameImg from "../assets/ten.png";
 import submitBtn from "../assets/submit-btn.svg";
 
 // import array data
