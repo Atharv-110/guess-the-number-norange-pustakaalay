@@ -43,7 +43,7 @@ export default function Game() {
       setCurrentQuestion(currentQuestion + 1);
     } else {
       // console.log("wrong");
-      toast.error("This didn't work.")
+      toast.error("Wrong Answer!")
       setUserAnswer("");
       setIsAnswerCorrect(null);
       setCurrentQuestion(currentQuestion + 1);
