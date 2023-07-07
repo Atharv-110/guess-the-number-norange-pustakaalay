@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 
 // import images
 import summaryHeading from "../assets/hurray.png";
-import starImg from "../assets/stars.svg";
+import starImg from "../assets/stars.png";
 import restartImg from "../assets/restart.png";
 import goImg from "../assets/go.png";
 
